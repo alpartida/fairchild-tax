@@ -11350,7 +11350,7 @@ hr.divider-light {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #mainNav {
     box-shadow: none;
     background-color: transparent;
@@ -11401,11 +11401,11 @@ header.masthead {
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
-    padding-top: 4.5rem;
+    padding-top: 9.5rem;
     padding-bottom: 0;
   }
   header.masthead p {
