@@ -1,0 +1,30 @@
+{
+  "name": "fairchild-tax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test:html": "htmlhint index.html",
+    "test:js": "eslint script.js",
+    "test": "npm run test:html && npm run test:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpartida/fairchild-tax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alpartida/fairchild-tax/issues"
+  },
+  "homepage": "https://github.com/alpartida/fairchild-tax#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+    "htmlhint": "^1.9.1",
+    "prettier": "^3.8.1"
+  }
+}
